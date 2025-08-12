@@ -41,3 +41,20 @@
 .bg-color-blue {
   background-color: #37517e;
 }
+
+.work-card:hover img {
+  transform: scale(1.1);
+}
+.work-card img {
+  transition: all 0.4s;
+}
+.work-card {
+  overflow: hidden;
+}
+.content {
+  z-index: 1;
+  transition: all 0.4s;
+}
+.work-card:hover .content {
+  transform: translateY(-15px);
+}
