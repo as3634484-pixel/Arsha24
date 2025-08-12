@@ -58,3 +58,16 @@
 .work-card:hover .content {
   transform: translateY(-15px);
 }
+.image {
+  background-image: url("https://southcoastimprovement.com/wp-content/uploads/2025/03/8254661.jpg");
+  height: 50vh;
+  background-size: cover;
+  position: relative;
+}
+.image::before {
+  content: "";
+  position: absolute;
+  background-color: rgba(0, 0, 255, 0.3);
+  height: 100%;
+  width: 100%;
+}
