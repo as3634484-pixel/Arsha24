@@ -1,0 +1,43 @@
+.hero-section {
+  background-color: #37517e;
+}
+.navbar a {
+  color: white !important;
+}
+.dropdown-menu a {
+  color: black !important;
+}
+.animate-image {
+  animation: move 0.8s linear alternate infinite;
+}
+@keyframes move {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-10px);
+  }
+}
+.gray-line {
+  width: 150px;
+  height: 2px;
+  background-color: lightgray;
+  margin: auto;
+  position: relative;
+}
+.blue-line {
+  width: 40%;
+  height: 3px;
+  background-color: var(--bs-info);
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.text-about-color {
+  color: #37517e;
+}
+.bg-color-blue {
+  background-color: #37517e;
+}
