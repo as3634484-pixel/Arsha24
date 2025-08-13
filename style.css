@@ -68,7 +68,17 @@
 .image::before {
   content: "";
   position: absolute;
+  top: 0;
+  left: 0;
   background-color: rgba(0, 0, 255, 0.3);
   height: 100%;
   width: 100%;
+}
+::-webkit-scrollbar {
+  width: 4px;
+  background-color: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #37517e;
+  border-radius: 10px;
 }
