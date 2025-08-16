@@ -39,7 +39,7 @@
   color: #37517e;
 }
 .bg-color-blue {
-  background-color: #37517e;
+  background-color: rgb(55, 81, 126);
 }
 
 .work-card:hover img {
@@ -58,22 +58,7 @@
 .work-card:hover .content {
   transform: translateY(-15px);
 }
-.image {
-  background-image: url("https://southcoastimprovement.com/wp-content/uploads/2025/03/8254661.jpg");
-  height: 55vh;
 
-  background-size: cover;
-  position: relative;
-}
-.image::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color: rgba(0, 0, 255, 0.3);
-  height: 100%;
-  width: 100%;
-}
 ::-webkit-scrollbar {
   width: 4px;
   background-color: transparent;
@@ -81,4 +66,44 @@
 ::-webkit-scrollbar-thumb {
   background: #37517e;
   border-radius: 10px;
+}
+.image-container {
+  background: linear-gradient(
+      to right,
+      rgb(55, 81, 126, 0.5),
+      rgb(55, 81, 126, 0.7)
+    ),
+    url("https://bootstrapmade.com/content/demo/Arsha/assets/img/bg/bg-8.webp")
+      fixed;
+}
+.overlay {
+  bottom: -80px;
+  transition: 0.2s;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.image-animation {
+  overflow: hidden;
+}
+.image-animation:hover .overlay {
+  bottom: 0;
+}
+.social-icons i:hover {
+  background-color: cyan;
+  color: white;
+}
+.social-icons i {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.card-scale:hover {
+  transform: translateY(-10px);
+}
+.card-scale {
+  transition: all 0.4s;
 }
