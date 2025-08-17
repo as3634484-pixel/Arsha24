@@ -128,3 +128,6 @@
 .image-card a {
   transition: all 0.3s;
 }
+.text-sm {
+  font-size: 0.9rem;
+}
