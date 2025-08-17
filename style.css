@@ -107,3 +107,24 @@
 .card-scale {
   transition: all 0.4s;
 }
+.image-card:hover img {
+  transform: scale(1.1);
+}
+.image-card {
+  overflow: hidden;
+}
+.image-card img {
+  transition: all 0.2s;
+}
+.image-card:hover h2 {
+  color: cyan;
+}
+.image-card h2 {
+  transition: all 0.3s;
+}
+.image-card:hover a {
+  color: cyan !important;
+}
+.image-card a {
+  transition: all 0.3s;
+}
